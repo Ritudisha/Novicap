@@ -13,7 +13,7 @@ namespace Novicap
         public int ApplicableQuantity { get; set; }
         public int FreeQuantity { get; set; }
 
-        public decimal GetAmount(decimal actualPrice, int quantity) // check this logic again
+        public decimal GetAmount(decimal actualPrice, int quantity)
         {
             if (quantity < ApplicableQuantity)
             {

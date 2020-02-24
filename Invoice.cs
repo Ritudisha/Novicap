@@ -45,7 +45,7 @@ namespace Novicap
                                         }
                                         catch
                                         {
-                                            throw new Exception("Invalid Product config"); // Move this while updating the config
+                                            throw new Exception("Invalid Product config");
                                         }
                                     }).ToList();
 
